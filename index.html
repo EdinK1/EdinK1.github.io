@@ -6,35 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Edin Kaymakqi</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <script async src="https://kit.fontawesome.com/b358ba6518.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?image=1005" data-speed="-1" class="img-parallax">
-        <h2>Parallax Speed -1</h2>
-    </div>
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?image=1067" data-speed="1" class="img-parallax">
-        <h2>Parallax Speed 1</h2>
-    </div>
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?gravity=center" data-speed="-0.25" class="img-parallax">
-        <h2>Parallax Speed -0.25</h2>
-    </div>
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?image=1080" data-speed="0.25" class="img-parallax">
-        <h2>Parallax Speed 0.25</h2>
-    </div>
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?random" data-speed="-0.75" class="img-parallax">
-        <h2>Parallax Speed -0.75</h2>
-    </div>
-    <div class="block">
-        <img src="https://unsplash.it/1920/1920/?blur" data-speed="0.75" class="img-parallax">
-        <h2>Parallax Speed 0.75</h2>
-    </div>
+    <aside class="social">
+            <a target="_blank" href="https://github.com/EdinK1"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="mailto:edinkaymakchi@gmail.com"><i class="fas fa-paper-plane"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/edin-kaymakqi-3243b3163/"><i class="fab fa-linkedin-in"></i></a>
+    </aside>
+
+    <section id="landing" class="block">
+        <img src="images/1.jpg" data-speed="-1" class="img-parallax" alt="landing page background">
+        <h1>Hi there, welcome to my Website!</h1>
+        <p class="description">My name is Edin. I am a Full Stack Web Development Student. I love creating clean and modern looking websites and user interfaces.</p>
+        <a href="#showcase" class="btn">View my projects</a>
+    </section>
+    <section id="showcase" class="block">
+        <img src="images/2.jpg" data-speed="1" class="img-parallax" alt="projects page background">
+        <h1 class="projects-title">Projects</h1>
+        <ul class="projects">
+            <li class="project">
+                <img class="project-img" src="images/instanews.PNG" alt="instanews project">
+                <a target="_blank" class="project-link-project" href="https://instanews.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="https://github.com/EdinK1/Instanews">View GitHub</a>
+            </li>
+            <li class="project">
+                <img class="project-img" src="images/aloha.PNG" alt="aloha project">
+                <a target="_blank" class="project-link-project" href="https://aloha-apparel.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="https://github.com/EdinK1/Aloha-Apparel">View GitHub</a>
+            </li>
+            <li class="project">
+                <img class="project-img" src="images/weather.PNG" alt="weatherappjs project">
+                <a target="_blank" class="project-link-project" href="https://weatherappjs.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="https://github.com/EdinK1/WeatherApp">View GitHub</a>
+            </li>
+            <li class="project">
+                <img class="project-img" src="images/omni.PNG" alt="omnifood project">
+                <a target="_blank" class="project-link-project" href="https://omni-project.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="#">View GitHub</a>
+            </li>
+            <li class="project">
+                <img class="project-img" src="images/edgeledger.PNG" alt="edgeledger project">
+                <a target="_blank" class="project-link-project" href="https://edgeledger-project.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="">View GitHub</a>
+            </li>
+            <li class="project">
+                <img class="project-img" src="images/hbt.PNG" alt="hbt project">
+                <a target="_blank" class="project-link-project" href="https://hbt-project.netlify.com/">View project</a>
+                <a target="_blank" class="project-link-github" href="#">View GitHub</a>
+            </li>
+        </ul>
+    </section>
+    <section id="contact" class="block">
+        <img src="images/3.jpg" data-speed="-0.25" class="img-parallax">
+        <h1 class="contact-title">Contact</h1>
+        <p class="contact-desc">If you found my projects interesting, please feel free to contact me.</p>
+        
+        <div class="contact-info">
+                <a href="mailto:edinkaymakchi@gmail.com"><i class="fas fa-envelope-open-text"></i>edinkaymakchi@gmail.com</a>
+                <a target="_blank" href="tel:1-604-240-7966"><i class="fas fa-mobile-alt"></i>604-240-7966</a>
+                <a target="_blank" href="https://github.com/EdinK1"><i class="fab fa-github-square"></i>EdinK1</a>
+                <a target="_blank" href="https://www.linkedin.com/in/edin-kaymakqi-3243b3163/"><i class="fab fa-linkedin"></i>@edinkaymakqi</a>
+        </div>
+    </section>
 
 
     <script
