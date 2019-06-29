@@ -11,6 +11,11 @@ body {
     color: #fff;
 }
 
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url('/images/1.jpg') no-repeat center center/cover
+}
+
 .social {
     position: fixed;
     top: 50%;
@@ -75,18 +80,12 @@ body {
     font-size: 1.5rem;
 }
 
-.img-parallax {
-    width: 100vmax;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    pointer-events: none;
-    filter: brightness(30%);
-}
-
 /* Projects */
+
+.showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url('/images/2.jpg') no-repeat center center/cover
+}
 
 .projects-title {
     padding-bottom: 4rem;
@@ -161,10 +160,13 @@ body {
 
 /* Contact */
 
-#contact {
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url('/images/3.jpg') no-repeat center center/cover;
     justify-content: flex-start;
-    height: 80vh;
+    height: 85vh;
 }
+
 
 .contact-info {
     display: flex;
