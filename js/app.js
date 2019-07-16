@@ -1,7 +1,7 @@
   // Smooth Scrolling
-  $("a").on("click", function(event) {
+  $("a").on("click", function(e) {
     if (this.hash != "") {
-      event.preventDefault();
+      e.preventDefault();
   
       const hash = this.hash;
   
@@ -12,9 +12,5 @@
         800
       );
     }
-  });
-
-  $(".project").hover(function () {
-      $(this).children(".project-link-project").show();
   });
 
