@@ -12,6 +12,17 @@
   </head>
 
   <body>
+    <header class="main-header">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#showcase">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <aside class="social">
       <a rel="noreferrer" href="https://github.com/EdinK1"
         ><i class="fab fa-github"></i
@@ -34,6 +45,25 @@
     <section id="showcase" class="container showcase">
       <h1 class="projects-title">Projects</h1>
       <ul class="projects">
+        <li class="project">
+          <img
+            class="project-img"
+            src="./images/refilter.png"
+            alt="weatherappjs project"
+          />
+          <a
+            rel="noreferrer"
+            class="project-link-project"
+            href="https://refilter.van.cp.academy.red"
+            >View project</a
+          >
+          <a
+            rel="noreferrer"
+            class="project-link-github"
+            href="https://github.com/redacademy/refilter-ws1-2019"
+            >View GitHub</a
+          >
+        </li>
         <li class="project">
           <img
             class="project-img"
@@ -117,34 +147,56 @@
             >View GitHub</a
           >
         </li>
-        <li class="project">
-          <img
-            class="project-img"
-            src="./images/calorietracker.PNG"
-            alt="weatherappjs project"
-          />
-          <a
-            rel="noreferrer"
-            class="project-link-project"
-            href="https://calorietracker.netlify.com/"
-            >View project</a
-          >
-          <a
-            rel="noreferrer"
-            class="project-link-github"
-            href="https://github.com/EdinK1/CalorieTracker"
-            >View GitHub</a
-          >
-        </li>
       </ul>
     </section>
+
+    <section id="skills" class="container skills">
+      <h1>Skills</h1>
+      <p>
+        I love working with modern web technologies and always try to keep up
+        with the latest trends.
+      </p>
+
+      <section class="skills-list">
+        <section>
+          <h3 class="skills-title">Front End</h3>
+          <ul class="front-end">
+            <li><i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3-alt"></i></li>
+            <li><i class="fab fa-sass"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+            <li><i class="fab fa-react"></i></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="skills-title">Tools / CMS</h3>
+          <ul class="tools">
+            <li><i class="fab fa-github"></i></li>
+            <li><i class="fab fa-git-alt"></i></li>
+            <li><i class="fab fa-gulp"></i></li>
+            <li><i class="fab fa-npm"></i></li>
+            <li><i class="fab fa-wordpress"></i></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="skills-title">Back End</h3>
+          <ul class="back-end">
+            <li><i class="fab fa-php"></i></li>
+            <li><i class="fab fa-node"></i></li>
+          </ul>
+        </section>
+      </section>
+    </section>
+
     <section id="contact" class="container contact">
       <h1 class="contact-title">Contact</h1>
       <p class="contact-desc">
         If you found my projects interesting, please feel free to contact me.
       </p>
 
-      <div class="contact-info">
+      <section class="contact-info">
         <a href="mailto:edinkaymakchi@gmail.com"
           ><i class="fas fa-envelope-open-text"></i>edinkaymakchi@gmail.com</a
         >
@@ -159,7 +211,15 @@
           href="https://www.linkedin.com/in/edin-kaymakqi-3243b3163/"
           ><i class="fab fa-linkedin"></i>@edinkaymakqi</a
         >
-      </div>
+      </section>
     </section>
+
+    <footer class="main-footer">
+      <p>
+        Built with <i class="fas fa-mug-hot"></i>, by
+        <a href="https://github.com/EdinK1">@Edin</a>. &copy; All rights
+        reserved.
+      </p>
+    </footer>
   </body>
 </html>
